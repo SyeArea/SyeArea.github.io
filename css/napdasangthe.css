@@ -1,0 +1,231 @@
+html{
+    background:#222222;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+footer{
+    position: relative;
+    float: both;
+    border-top:10px double #000033;
+    text-align: center;
+    clear: both;
+    background-color: #666666 ;
+    width: 100%;
+    height: 550px; 
+}
+.thongbao{
+    height: 60px;
+    text-align: center;
+    background: #333333;
+    color: aliceblue;
+}
+.menu-logo{
+    position: relative;
+    background:#666666 ;
+    height: 100px;
+}
+.menu-logo .logo{
+    position: absolute;
+    top: -5px;
+    left: 10px;
+}
+.menu-logo nav{
+    position: absolute;
+    top: 10px ;
+    right: 10px;
+}
+.menu-logo nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    line-height: 70px;
+    margin: 0 7px;
+}
+.menu-logo nav a:hover{
+    color: darkred ;
+    font-weight: blod;
+}
+.menu-logo .search-box{
+    margin-left: 300px;
+    padding-top: 25px;
+}
+.menu-logo .search-box input{
+    font: arial;
+    font-size: 20px;
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px;
+}
+.menu-logo .header-button{
+    padding-top: 14px;
+    width: 60px;
+    height: 50px;
+    margin-left: -65px;
+    background-color: #222222;
+    border-radius: 10px;
+    justify-content: center;
+    margin-right: 5px;
+    background-image: url(../img/images.png);
+    border-radius: 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.home{
+    color: #EEEEEE;
+    font: helvetica  ;
+    text-align: center;
+    font-size: 50px;
+    background-color: #333333;
+}
+#hint{
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 40px;
+    font: helvetica ;
+    background-color: #333333;
+}
+p>img{
+    height: 150px;
+    width: 100px;
+ }
+ .column{
+    width: 25%;
+    float: left;
+ }
+.san-pham{
+     border-radius: 10px;
+     box-shadow: 0 0 10px #333333;
+     background-color: whitesmoke;
+     padding: 30px;
+     margin:  30px;
+     text-align: center; 
+ }
+.san-pham:hover{
+     background-color: 	#9999CC;
+     margin-top: 1px;
+     transition: 0.6s;
+ }
+.san-pham .ten{
+     font-size: 30px;
+     font-variant: arial ;
+     color: blue;
+ }
+.san-pham img{
+     max-width: 75%;
+ }
+.san-pham .button{
+     height: 40px;
+     width: 200px;
+     font-weight: blod;
+     font-size: large;
+     background: #00c3ff;
+     color: #fff;
+     border-radius: 5px;
+ }
+.san-pham .gia del{
+     color:gray
+ }
+.san-pham .bonus{
+     font-size: 25px;
+     color: aqua;
+
+ }
+ .the-end{
+    position: relative;
+    width: 100%;
+}
+.the-end .footer-top{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.the-end .footer-top a{
+    margin: 0 10px;
+}
+.the-end .footer-top-icon{
+    position: absolute;
+    top: 20px;
+    right: 500px;
+}
+.the-end .logoimg{
+    position: absolute;
+    bottom: -350px ;
+    left: 100px;
+}
+.the-end .logoimggame{
+    position: absolute;
+    bottom: -390px ;
+    left: 390px;
+}
+.the-end .thanhlogo{
+    position: absolute;
+    left: 405px;
+    bottom: -350px;
+    background-color: #bfbfbf;
+    height: 95px;
+    width: 3px;
+}
+.the-end .ndfooter{
+    position: absolute;
+    font-size: 20px;
+    bottom: -390px ;
+    right: 200px;
+    width: 30%;
+    text-align: left;
+}
+.the-end .logoimg1{
+    position: absolute;
+    bottom: -500px ;
+    right: 550px;
+}
+.the-end .logoimg2{
+    position: absolute;
+    bottom: -500px ;
+    right: 300px;
+}
+.the-end .footer-lg{
+    position: absolute;
+    background: #333333;
+    margin: 30px 0 0 1030px;
+}
+.the-end .footer-lg>ul>li{
+    display:inline-block;
+}
+.the-end .footer-lg a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    margin: 0 30px;
+}
+.the-end .footer-lg ul ul{
+    list-style: none;
+    display :none;
+    background: #333333;
+    padding: 10px;       
+    height: 70px;
+    width: 246px;
+}
+.the-end .footer-lg ul ul a{
+    color : white;
+}
+.the-end .footer-lg ul ul a:hover{
+    color: yellow;
+}
+.the-end .footer-lg li:hover>ul{
+    display: block;
+    position: absolute;
+}
+.the-end .footer-lg ul li a:hover{
+    color: yellow;
+}
